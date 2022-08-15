@@ -1,0 +1,7 @@
+We make a HTTP request to the website
+We get back a response from the server hosting amazon.com
+The response is the webpage (front-end)
+Web page consists of: html, css, JS
+html=content of page (text, images, buttons)
+CSS=styling of the content (layout, colors, placement on the page)
+JS=Interactivity between the user and the webpage, results in the modification of the html and css (clicking, typing, scrolling)
