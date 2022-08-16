@@ -1,0 +1,33 @@
+button{
+    display: block;
+}
+
+#search{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 150px;
+    border-color: rgb(68, 131, 110);
+    color: rgb(68, 131, 110);
+    height: 30px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+#plus{
+    font-size: 25px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(96, 189, 158);
+    border-color: white;
+    color: white;
+}
+
+#CreateAccount{
+    color: white;
+    background-color: dodgerblue;
+    border-color: black;
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    box-shadow: 3px 3px 3px black;
+}
