@@ -53,7 +53,6 @@ var mixedArray = [3, "Taylor Swift", 93, true]
 //1, 5, 9, ootl 13
 
 function getTotal(arrayOfNumbers) {
-    
     var sum = arrayOfNumbers[0];
 
     for(var i=0; i<arrayOfNumbers.length; i++) {
@@ -64,5 +63,7 @@ function getTotal(arrayOfNumbers) {
     console.log("the total is: " + sum);
 
     }
-    
+
 getTotal([1, 3, 5]);
+
+//2, 3 

@@ -1,0 +1,64 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    color: firebrick;
+    background-color: rgb(116, 161, 161);
+    font-size: 50px;
+    text-align: center;
+}
+
+#Messi{
+    color: firebrick;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+li {
+    text-align: center;
+    font-weight: bold;
+}
+
+.Dumb{
+    text-decoration: line-through;
+}
+
+button{
+    font-size: 20px;
+    display: block;
+}
+
+/*ID - targets 1 item*/
+#mom{
+    color: aqua;
+    height: 50px;
+    width: 300px;
+    border-radius: 30%;
+}
+
+/*class - targets multiple*/
+.round{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.shadow{
+    box-shadow: 3px 3px 3px black;
+}
+
+/*
+h1 is the selector
+
+color is the CSS property
+firebrick is the value
+color: firebrick --> this combo of property + value = css rule
+
+.classes are used to style multiple diffeent elements the same way
+
+
+
+*/
