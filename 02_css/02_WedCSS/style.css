@@ -16,13 +16,34 @@ body{
     margin-bottom: 15px;
     display: flex; 
     /* ^ Makes the boxes share a line without the white space */
-    justify-content: center;
+    /* justify-content: center; */
     /*centers the content*/
+    padding: 20px;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+
+    /*Align-items are for vertical adjustments*/
+
+    align-items: center;
+}
+
+#row2{
+    justify-content: end;
+    gap: 20px;
 }
 
 .square{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-color: coral;
     border: 1px solid black;
+    padding: 3px;
+    background: url(images/office.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
+
+/* img{
+    height: 90px;
+    width: 90px;
+} */
