@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px dotted red; */
+}
+
+body{
+    background-color: bisque;
+}
+
+#Nav-bar{
+    /* height: 100px; */
+    background-color: rgb(5,28,45);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    padding: 10px 25px;
+    color: white;
+}
+
+#nav-links{
+    display: flex;
+    list-style: none; 
+    /* ^ removes the bullets */
+    /* border: 1px dotted red; */
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#playa{
+    margin-right: 60px
+}
+
+#nav-links a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    height: 40px;
+}
