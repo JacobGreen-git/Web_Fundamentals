@@ -20,11 +20,17 @@
         <div id="left-col">
             <div class="dog-page" id="junior">
                 <div class="dog-info">
-                    <img src="./resources/puppy.jpeg" alt="">
+                    <img 
+                        onmouseover="switchImage(this)" 
+                        onmouseout="switchImage(this)" 
+                        src="./resources/puppy.jpeg" alt="Pic of Junior">
                     <h2>Junior</h2>
                     <h4><em>Male</em></h4>
                     <h4>Breed: <em>Fox</em> </h4>
-                    <button>10 Likes</button>
+                    <button 
+                        onclick="like('dog1Count')">
+                        <span id="dog1Count">10</span> Likes
+                    </button>
                     <br>
                     <button onclick="petDog()">Pet this puppy</button>
                 </div>
@@ -34,11 +40,11 @@
             </div>
             <div class="dog-page" id="Fluffy">
                 <div class="dog-info">
-                    <img src="./resources/beagle.jpeg" alt="">
+                    <img src="./resources/beagle.jpeg" alt="Pic of Fluffy">
                     <h2>Fluffy</h2>
                     <h4><em>Female</em></h4>
                     <h4>Breed: <em>Beagle</em> </h4>
-                    <button>8 Likes</button>
+                    <button onclick="like('dog2Count')"><span id="dog2Count">8</span> Likes</button>
                     <br>
                     <button onclick="petDog()">Pet this puppy</button>
                 </div>
@@ -54,7 +60,12 @@
             </div>
             <div id="video">
                 <p id="video-title">Our popular video of the week!</p>
-                <video src="./resources/puppy_video.mp4"></video>
+                <video 
+                    onmouseover="playVideo(this)" 
+                    onmouseout="pauseVideo(this)" 
+                    src="./resources/puppy_video.mp4" 
+                    muted="muted">
+                </video>
                 <p><em>This is Josie, the playful beack dog!</em></p>
             </div>
         </div>
@@ -62,7 +73,7 @@
     <div id="cookie-box">
         <img src="./resources/caution.jpeg" alt="">
         <p>This site will track all your information and sell it. You will get some dopamine hits from the scrolling tho. Would you like to accept these cookies as a treat?</p>
-        <button><a href="#">Accept</a></button>
+        <button onclick="removeCookieBox('cookie-box')"><a href="#">Accept</a></button>
     </div>
 
 
