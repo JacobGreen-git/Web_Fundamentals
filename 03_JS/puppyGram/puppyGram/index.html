@@ -12,9 +12,9 @@
         <h1>PuppyGram</h1>
         <div id="search">
             <input type="text" placeholder="Search a puppy name...">
-            <button><a href="#">Search!</a></button>
+            <button>Search!</button>
         </div>
-        <button><a href="#">Login</a></button>
+        <button onclick="toggleLogin(this)">Login</button>
     </div>
     <div id="flex-container">
         <div id="left-col">
@@ -24,7 +24,9 @@
                     <h2>Junior</h2>
                     <h4><em>Male</em></h4>
                     <h4>Breed: <em>Fox</em> </h4>
-                    <button><a href="#">10 Likes</a></button>
+                    <button>10 Likes</button>
+                    <br>
+                    <button onclick="petDog()">Pet this puppy</button>
                 </div>
                 <div class="description">
                     <p>Junior is a very spontaneous, high-energy <a href="#">Fox</a> who loved to eat food.</p>
@@ -36,7 +38,9 @@
                     <h2>Fluffy</h2>
                     <h4><em>Female</em></h4>
                     <h4>Breed: <em>Beagle</em> </h4>
-                    <button><a href="#">8 Likes</a></button>
+                    <button>8 Likes</button>
+                    <br>
+                    <button onclick="petDog()">Pet this puppy</button>
                 </div>
                 <div class="description">
                     <p>Fluffy is a queit, shy, and calm <a href="#">Beagle</a> who loves to eat and play fetch.</p>
@@ -46,7 +50,7 @@
         <div id="right-col">
             <div id="upload">
                 <p>Please upload your pup info to our puppy social media!</p>
-                <button><a href="#">Upload new Pup!</a></button>
+                <button onclick="removeButton(this)">Upload new Pup!</button>
             </div>
             <div id="video">
                 <p id="video-title">Our popular video of the week!</p>
@@ -60,5 +64,8 @@
         <p>This site will track all your information and sell it. You will get some dopamine hits from the scrolling tho. Would you like to accept these cookies as a treat?</p>
         <button><a href="#">Accept</a></button>
     </div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
