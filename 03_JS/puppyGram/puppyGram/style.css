@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 20px;
+    /* background-color: bisque; */
+}
+
+#nav-bar {
+    /* border: 2px solid red; */
+    display: flex;
+    background-color:aquamarine;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+#search> input{
+    padding: 5px 10px;
+    width: 250px;
+
+}
+
+#nav-bar button{
+    padding: 5px 10px;
+    padding: 5px 10px;
+    background-color: burlywood;
+    color: black;
+    box-shadow: 3px 3px 3px;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+
+#flex-container{
+    /* border: 2px solid green; */
+    display: flex;
+}
+
+/* #fluffy {
+    margin-top: 15px;
+} */
+
+#left-col, #right-col{
+    /* height: 400px; */
+    
+}
+
+#left-col {
+    /* border: 2px solid blue; */
+    flex: 3;
+    margin-right: 8px;
+}
+
+#right-col {
+    /* border: 2px solid yellow; */
+    flex: 2;
+    margin-left: 8px;
+}
+
+.dog-page{
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.dog-info {
+    flex: 1.5;
+    /* justify-content: center; */
+    text-align: center;
+    /* border: 2px solid gray; */
+}
+
+.dog-info a{
+    text-decoration: none;
+    color: black;
+}
+
+.dog-info>button{
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: aquamarine;
+    box-shadow: 3px 3px 3px;
+}
+
+.description>p{
+    font-size: 20px;
+}
+
+
+.description {
+    flex: 3;
+    /* border: 2px solid cyan; */
+    /* align-items: center; */
+}
+
+.dog-info img{
+    height: 100px;
+    width: 100px;
+}
+
+#upload{
+    padding: 15px;
+    border: 2px solid black;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#upload> button {
+    padding: 5px;
+    background-color: rgb(224, 135, 52);
+    box-shadow: 3px 3px 3px;
+    margin-top: 15px;
+}
+
+#upload a{
+    text-decoration: none;
+    color: black;
+}
+
+#video{
+    border: 2px solid black;
+    padding: 15px;
+    font-size: 20px
+}
+
+#video>video{
+    height: 125px;
+    margin: 10px 0;
+    /* justify-content: center; */
+}
+
+#video-title{
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+#cookie-box{
+    height: 100px;
+    width: 95%;
+    border: 2px solid black;
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: gray;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#cookie-box> img{
+    height: 80px;
+    margin-right: 10px;
+}
+
+#cookie-box> button{
+    width: 100px;
+    padding: 10px;
+    background-color: blue;
+    color: black;
+    box-shadow: 3px 3px 3px;
+    margin-left: 40px;
+}
+
+#cookie-box a{
+    color: white;
+    text-decoration: none;
+}

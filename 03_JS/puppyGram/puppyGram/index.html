@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PuppyGram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <h1>PuppyGram</h1>
+        <div id="search">
+            <input type="text" placeholder="Search a puppy name...">
+            <button><a href="#">Search!</a></button>
+        </div>
+        <button><a href="#">Login</a></button>
+    </div>
+    <div id="flex-container">
+        <div id="left-col">
+            <div class="dog-page" id="junior">
+                <div class="dog-info">
+                    <img src="./resources/puppy.jpeg" alt="">
+                    <h2>Junior</h2>
+                    <h4><em>Male</em></h4>
+                    <h4>Breed: <em>Fox</em> </h4>
+                    <button><a href="#">10 Likes</a></button>
+                </div>
+                <div class="description">
+                    <p>Junior is a very spontaneous, high-energy <a href="#">Fox</a> who loved to eat food.</p>
+                </div>
+            </div>
+            <div class="dog-page" id="Fluffy">
+                <div class="dog-info">
+                    <img src="./resources/beagle.jpeg" alt="">
+                    <h2>Fluffy</h2>
+                    <h4><em>Female</em></h4>
+                    <h4>Breed: <em>Beagle</em> </h4>
+                    <button><a href="#">8 Likes</a></button>
+                </div>
+                <div class="description">
+                    <p>Fluffy is a queit, shy, and calm <a href="#">Beagle</a> who loves to eat and play fetch.</p>
+                </div>
+            </div>
+        </div>
+        <div id="right-col">
+            <div id="upload">
+                <p>Please upload your pup info to our puppy social media!</p>
+                <button><a href="#">Upload new Pup!</a></button>
+            </div>
+            <div id="video">
+                <p id="video-title">Our popular video of the week!</p>
+                <video src="./resources/puppy_video.mp4"></video>
+                <p><em>This is Josie, the playful beack dog!</em></p>
+            </div>
+        </div>
+    </div>
+    <div id="cookie-box">
+        <img src="./resources/caution.jpeg" alt="">
+        <p>This site will track all your information and sell it. You will get some dopamine hits from the scrolling tho. Would you like to accept these cookies as a treat?</p>
+        <button><a href="#">Accept</a></button>
+    </div>
+</body>
+</html>
