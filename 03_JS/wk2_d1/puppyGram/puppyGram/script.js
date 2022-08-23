@@ -58,3 +58,20 @@ function like(increase){
 
     spanElement.innerText = currentCount;
 }
+
+function searchPuppy(){
+    // console.log("Searching for puppy")
+    let element = document.querySelector("#name-search");
+    // console.log(element.value)
+    //Stores the data ^^^ entered in the element
+    alert("You searched for " + element.value);
+}
+
+
+function chooseLocation(element){
+    // console.log("Location selected", element.value)
+    // alert("You selected: " + element.value)
+
+    
+    //another way to combine a string with a variable
+}

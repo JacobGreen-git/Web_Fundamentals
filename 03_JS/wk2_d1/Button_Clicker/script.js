@@ -1,4 +1,4 @@
-console.log("Yo yo");
+// console.log("Yo yo");
 
 
 function removeAdd(btn){
@@ -7,6 +7,7 @@ function removeAdd(btn){
 
 
 function likedAlert(){
+// ^function        ^ parameter
     alert("Ninja was liked")
 }
 
