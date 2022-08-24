@@ -7,13 +7,65 @@
 
 body{
     /* background-color: aqua; */
-    padding: 30px 100px;
+    padding: 0 100px;
+}
+
+#nav-bar{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+#feed{
+    text-align: center;
+    font-size: 22px;
+    margin: 10px;
+}
+
+#flex-container{
+    display: flex;
+    width: auto;
+    /* border: 2px solid hotpink; */
+}
+
+#user{
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+
+#user>img{
+    filter: invert(1);
+    border-radius: 50%;
+    height: 100px;
+    margin: 30px 0;
+}
+
+/* #user a{
+    margin-bottom: 100px;
+} */
+
+#user>h2{
+    margin: 30px 0;
+}
+
+#col-l{
+    flex: 1;
+    margin-right: 10px;
+}
+
+#col-r{
+    flex: 3;
+    margin-left: 10px;
 }
 
 #container{
     border: 2px solid black;
     width: 500px;
     padding: 20px;
+    margin-bottom: 25px;
+    height: 180px;
 }
 
 #profile{

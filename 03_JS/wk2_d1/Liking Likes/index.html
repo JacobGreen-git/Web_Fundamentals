@@ -8,19 +8,60 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="container">
-        <div id="profile">
-            <h1>Some User</h1>
-            <div id="like-bar">
-                <p><span id="like-count">3</span> like(s)</p>
-                <button onclick="addLike('like-count')">Like</button>
+    <div id="nav-bar">
+        <h1>Network</h1>
+    </div>
+    <div id="feed">
+        <h2>Your Feed</h2>
+    </div>
+    <div id="flex-container">
+        <div id="col-l">
+            <div id="user">
+                <img src="./userIcon.jpeg" alt="" >
+                <br>
+                <a href="#">Add an avatar</a>
+                <h2>James Doe</h2>
             </div>
         </div>
-        <div id="description">
-            <p>This is some filler text, it can say anthing we like.</p>
+        <div id="col-r">
+            <div id="container">
+                <div id="profile">
+                    <h1>Neil M</h1>
+                    <div id="like-bar">
+                        <p><span id="like-count1">9</span> like(s)</p>
+                        <button onclick="addLike('like-count1')">Like</button>
+                    </div>
+                </div>
+                <div id="description">
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+            </div>
+            <div id="container">
+                <div id="profile">
+                    <h1>Nichole K</h1>
+                    <div id="like-bar">
+                        <p><span id="like-count2">12</span> like(s)</p>
+                        <button onclick="addLike('like-count2')">Like</button>
+                    </div>
+                </div>
+                <div id="description">
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+            </div>
+            <div id="container">
+                <div id="profile">
+                    <h1>Jim R</h1>
+                    <div id="like-bar">
+                        <p><span id="like-count3">9</span> like(s)</p>
+                        <button onclick="addLike('like-count3')">Like</button>
+                    </div>
+                </div>
+                <div id="description">
+                    <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
         </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
